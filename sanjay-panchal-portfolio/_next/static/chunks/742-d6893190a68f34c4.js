@@ -15,9 +15,6 @@
 				this.status = e ? e.status : 0, this.text = e ? e.responseText : "Network Error"
 			}
 		}
-		emailjs.init({
-			publicKey: "VUX9mnZNB3Y4yng2E",
-		});
 		let s = (e, t, n = {}) => new Promise((o, i) => {
 			let s = new XMLHttpRequest; s.addEventListener("load", ({ target: e }) => {
 				let t = new a(e)``; 200 === t.status || "OK" === t.text ? o(t) : i(t)

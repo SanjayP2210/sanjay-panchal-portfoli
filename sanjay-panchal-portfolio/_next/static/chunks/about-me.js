@@ -1,13 +1,16 @@
 "use strict";
+emailjs.init({
+    publicKey: "VUX9mnZNB3Y4yng2E",
+});
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
     [122],
     {
         4275: function (e, s) {
-            s.Z = { src: "./img/cancel.svg", height: 512, width: 512 };
+            s.Z = { src: "./public/img/cancel.svg", height: 512, width: 512 };
         },
         6029: function (e, s) {
             s.Z = {
-                src: "/img/hero/mobile-banner.png",
+                src: "/public/img/hero/mobile-banner.png",
                 height: 300,
                 width: 300,
                 blurDataURL:
@@ -539,7 +542,7 @@
                 r = a(5675),
                 d = a.n(r);
             let m = {
-                    heroImage: "./img/hero/dark.jpg",
+                    heroImage: "./public/img/hero/dark.jpg",
                     heroMobileImage: t.Z,
                     heroTitleName: "Sanjay Panchal",
                     heroDesignation: "Web Developer",
@@ -1658,7 +1661,7 @@
                                     { 
                                         className: "light-text", 
                                         children: (0, A.jsx)(i(), { 
-                                            src: './sun.png', 
+                                            src: './public/img/sun.png', 
                                             alt: "swicher", 
                                             className: "filter_1", 
                                             priority: !0,
